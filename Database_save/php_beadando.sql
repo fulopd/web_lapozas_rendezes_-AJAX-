@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.8.5
+-- version 4.9.1
 -- https://www.phpmyadmin.net/
 --
 -- Gép: 127.0.0.1
--- Létrehozás ideje: 2020. Jan 12. 18:46
--- Kiszolgáló verziója: 10.1.39-MariaDB
--- PHP verzió: 7.3.5
+-- Létrehozás ideje: 2020. Ápr 09. 14:32
+-- Kiszolgáló verziója: 10.4.8-MariaDB
+-- PHP verzió: 7.1.33
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -37,7 +37,7 @@ CREATE TABLE IF NOT EXISTS `beosztas` (
   `kezdesido` datetime NOT NULL,
   `vegeido` datetime NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=37 DEFAULT CHARSET=utf8 COLLATE=utf8_hungarian_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=38 DEFAULT CHARSET=utf8 COLLATE=utf8_hungarian_ci;
 
 --
 -- A tábla adatainak kiíratása `beosztas`
@@ -79,7 +79,8 @@ INSERT INTO `beosztas` (`id`, `userid`, `kezdesido`, `vegeido`) VALUES
 (33, 1, '2020-02-27 06:00:00', '2020-02-27 16:00:00'),
 (34, 1, '2020-02-28 06:00:00', '2020-02-28 16:00:00'),
 (35, 1, '2020-02-29 06:00:00', '2020-02-29 16:00:00'),
-(36, 2, '2020-02-02 06:00:00', '2020-02-02 16:00:00');
+(36, 2, '2020-02-02 06:00:00', '2020-02-02 16:00:00'),
+(37, 1, '2020-04-01 06:00:00', '2020-04-01 16:00:00');
 
 -- --------------------------------------------------------
 
